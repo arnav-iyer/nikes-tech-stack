@@ -39,13 +39,15 @@ export default function Component() {
           </p>
         </section>
         <section className="mb-8">
-          <h2 className="text-2xl font-bold text-black dark:text-white mb-4">Moving to Next.js 14</h2>
+          <h2 className="text-2xl font-bold text-black dark:text-white mb-4">Benefits of upgrading to Next.js 14</h2>
           <ul className="list-disc pl-5 space-y-2 text-gray-600 dark:text-gray-300">
             <li>Performance: Next.js 14 includes performance improvements and faster refresh times.</li>
             <li>Features: New features like concurrent rendering are introduced in Next.js 14.</li>
             <li>
               Community Support: With a newer version, there's better community support and more frequent updates.
             </li>
+            <li>App Router: Next.js 14 introduces an App Router that allows for more efficient routing and navigation
+              within applications.</li>
           </ul>
         </section>
         <section className="mb-8">
@@ -59,7 +61,7 @@ export default function Component() {
           </ul>
         </section>
         <section className="mb-8">
-          <h2 className="text-2xl font-bold text-black dark:text-white mb-4">Role of Vercel in Nike.com Tech Stack</h2>
+          <h2 className="text-2xl font-bold text-black dark:text-white mb-4">Role of Vercel in Nike.com&apos;s Tech Stack</h2>
           <p className="text-gray-600 dark:text-gray-300">
             Vercel, the creators of Next.js, provide a cloud platform for static sites and Serverless Functions that
             fits perfectly with Nike's tech stack. It offers benefits such as:
