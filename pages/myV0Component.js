@@ -9,17 +9,18 @@ export default function Component() {
     <div className="flex flex-col min-h-screen bg-white dark:bg-gray-800">
       <header className="w-full px-6 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <img
-            alt="Nike Logo"
-            className="h-8 w-auto"
-            height={50}
-            src="https://img.etimg.com/thumb/msid-59738997,width-640,resizemode-4/industry/services/advertising/hidden-meaning-of-11-worlds-most-famous-logos/nike.jpg"
-            style={{
-              aspectRatio: "50/50",
-              objectFit: "cover",
-            }}
-            width={50}
-          />
+          <svg
+            className=" h-8 w-8 text-black dark:text-white"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z" />
             <path d="M10 2c1 .5 2 2 2 5" />
           </svg>
