@@ -74,6 +74,24 @@ export default function Component() {
               deployments.
             </li>
           </ul>
+          <div className="mt-4 flex space-x-4">
+            <Link href="#">
+              <Button
+                className="text-black hover:bg-blue-500 hover:text-white dark:text-white dark:hover:bg-blue-400"
+                variant="outline"
+              >
+                Learn More About Vercel Enterprise
+              </Button>
+            </Link>
+            <Link href="#">
+              <Button
+                className="text-black hover:bg-blue-500 hover:text-white dark:text-white dark:hover:bg-blue-400"
+                variant="outline"
+              >
+                Learn More About Next.js 14
+              </Button>
+            </Link>
+          </div>
         </section>
       </main>
       <footer className="w-full h-20 flex items-center justify-center border-t border-gray-200 dark:border-gray-700">
