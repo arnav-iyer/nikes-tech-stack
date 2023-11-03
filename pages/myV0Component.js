@@ -20,19 +20,8 @@ export default function Component() {
             }}
             width={50}
           />
-          <span className="text-lg font-semibold text-black dark:text-white">Nike.com Tech Stack</span>
+          <span className="text-lg font-semibold text-black dark:text-white">Nike.com&apos;s Tech Stack</span>
         </div>
-        <nav className="space-x-4">
-          <Link className="text-black hover:text-blue-500 dark:text-white dark:hover:text-blue-400" href="#">
-            Home
-          </Link>
-          <Link className="text-black hover:text-blue-500 dark:text-white dark:hover:text-blue-400" href="#">
-            About
-          </Link>
-          <Link className="text-black hover:text-blue-500 dark:text-white dark:hover:text-blue-400" href="#">
-            Contact
-          </Link>
-        </nav>
       </header>
       <main className="flex-1 w-full max-w-5xl mx-auto px-6 py-8">
         <section className="mb-8">
