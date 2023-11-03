@@ -3,6 +3,7 @@
  * @see https://v0.dev/t/jtKDr6WLIuM
  */
 import Link from "next/link"
+import { Button } from "@/components/ui/button"
 
 export default function Component() {
   return (
@@ -75,7 +76,7 @@ export default function Component() {
             </li>
           </ul>
           <div className="mt-4 flex space-x-4">
-            <Link href="#">
+            <Link href="https://vercel.com/enterprise">
               <Button
                 className="text-black hover:bg-blue-500 hover:text-white dark:text-white dark:hover:bg-blue-400"
                 variant="outline"
@@ -83,7 +84,7 @@ export default function Component() {
                 Learn More About Vercel Enterprise
               </Button>
             </Link>
-            <Link href="#">
+            <Link href="https://nextjs.org/blog/next-14">
               <Button
                 className="text-black hover:bg-blue-500 hover:text-white dark:text-white dark:hover:bg-blue-400"
                 variant="outline"
