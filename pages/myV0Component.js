@@ -64,15 +64,15 @@ export default function Component() {
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-black dark:text-white mb-4">Role of Vercel in Nike.com&apos;s Tech Stack</h2>
           <p className="text-gray-600 dark:text-gray-300">
-            Vercel, the creators of Next.js, provide a cloud platform for static sites and Serverless Functions that
+            Vercel, the creators of Next.js, provides a cloud platform for dyanmic sites and Serverless Functions that
             fits perfectly with Nike's tech stack. It offers benefits such as:
           </p>
           <ul className="list-disc pl-5 space-y-2 text-gray-600 dark:text-gray-300">
-            <li>Performance: Vercel optimizes the delivery of your site for performance by default.</li>
-            <li>Scaling: With Vercel, scaling is handled automatically, no need to manually manage it.</li>
+            <li>Performance: Vercel optimizes the delivery of your site for performance by default. Stop focusing on improving performance and start focusing on delivering a better UX.</li>
+            <li>Scaling: With Vercel, scaling is handled automatically, no need to manually manage it for when a new shoe drops.</li>
             <li>
               Developer Experience: Vercel provides a seamless developer experience with features like integrated Git
-              deployments.
+              deployments. With an improved DX start attracting top talent to focus on building the best apps for Nike.
             </li>
           </ul>
           <div className="mt-4 flex space-x-4">
